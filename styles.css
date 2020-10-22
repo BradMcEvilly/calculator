@@ -1,8 +1,39 @@
 *
 html{
-
+    background-color: lightcyan;
+    padding: 0%;
 }
 
 body{
-    
+    background-color: azure;
+}
+
+#wrapper {
+    height: 75rem;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+#container {
+    height: 100%;
+    border: .1rem solid #dde8ff;
+    width: 32rem;
+    margin: auto;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    top: 0;
+    padding: 2rem 2rem 2rem 2rem;
+    border-radius: 16px;
+}
+
+.title {
+    color: darkcyan;
+    margin-bottom: 4rem;
+    height: 16rem;
+    display: block;
+    visibility: visible;
 }
