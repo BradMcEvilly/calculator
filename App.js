@@ -9,3 +9,6 @@ clear.onclick = () => {
 compute = (operation) => {
   let operator = operation.target.innerText;
 }
+
+// Setup pure JS selectors
+const clear = document.getElementById("clear");
