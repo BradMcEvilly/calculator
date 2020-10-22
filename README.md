@@ -1,7 +1,8 @@
 # Calculator
+
 Calculator created using pure JavaScript, HTML, and CSS with the below constraints
 
-# Functional Specs
+## Functional Specs
 
 * The calculator should be able to add, subtract, multiply and divide
 * The input element should reflect user interaction with the buttons – **_NOTE: It is not meant to be a true input field_**
