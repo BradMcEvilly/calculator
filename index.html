@@ -3,12 +3,46 @@
     <head>
         <meta charset="UTF-8">
         <title>Calculator</title>
+        <link href="https://fonts.googleapis.com/css?family=Roboto:200,300,400,500,600,700,800" rel="stylesheet">
+        <link rel="stylesheet" href="styles.css">
     </head>
     <body>
-        <header>Calculator</header>
+
         <div id="wrapper">
             <div id="container">
-
+                <div class="title">Calculator</div>
+                <article class="calculator">
+                    <header>
+                        <h2 id="inputs">0</h2>
+                    </header>
+                    <section class="operations">
+                        <button data-action="add">+</button>
+                        <button data-action="subtract">-</button>
+                        <button data-action="multiply">&times;</button>
+                        <button data-action="divide">÷</button>
+                    </section>
+                    <section class="numerals">
+                        <button>0</button>
+                        <button>1</button>
+                        <button>2</button>
+                        <button>3</button>
+                        <button>4</button>
+                        <button>5</button>
+                        <button>6</button>
+                        <button>7</button>
+                        <button>8</button>
+                        <button>9</button>
+                    </section>
+                    <section class="commands">
+                        <button data-action="clear">Clear</button>
+                        <button data-action="undo">Undo</button>
+                        <button data-action="compute">=</button>
+                        <button data-action="compute">ENTER</button>
+                    </section>
+                    <footer>
+                        <h2 id="results">0</h2>
+                    </footer>
+                </article>
             </div>
         </div>
         <script src="App.js"></script>

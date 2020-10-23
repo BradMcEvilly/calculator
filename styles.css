@@ -1,4 +1,8 @@
 *
+{
+    font-family: "Roboto", sans-serif;
+}
+
 html{
     background-color: lightcyan;
     padding: 0%;
@@ -8,8 +12,15 @@ body{
     background-color: azure;
 }
 
+h2 {
+    color: black;
+    margin-bottom: 1rem;
+    display: block;
+    visibility: visible;
+    font-size: 4rem;
+}
+
 #wrapper {
-    height: 75rem;
     position: absolute;
     top: 0;
     right: 0;
@@ -30,10 +41,23 @@ body{
     border-radius: 16px;
 }
 
-.title {
-    color: darkcyan;
-    margin-bottom: 4rem;
-    height: 16rem;
-    display: block;
-    visibility: visible;
+#calculator {
+    background-color: darkslategray;
+    border-radius: 16rem;
+}
+
+.operations {
+    display: grid;
+}
+
+.commands {
+    display: grid;
+}
+
+section button {
+    margin: .1rem;
+    padding: auto;
+    font-size: 2rem;
+    font-weight: bold;
+    width: auto;
 }
